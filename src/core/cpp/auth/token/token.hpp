@@ -1,6 +1,6 @@
 #ifndef token_hpp
 #define token_hpp
-#include "src\core\cpp\user\adm\admin.hpp"
+#include "C:\korp\talkie\src\core\cpp\user\adm"
 class token{
     private:
     long long token_;

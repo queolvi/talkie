@@ -9,6 +9,7 @@ class user{
     phone_number_, email_, password_, token_;
     bool is_want_TFA_;
     long long id_;
+    public:
     user(
 		    short unsigned age,
 		    std::string gender, std::string first_name, std::string last_name,
@@ -20,9 +21,7 @@ class user{
     {
     
     }
-    
     ~user();
-    public:
     short unsigned get_age();
     std::string get_gender();
     std::string get_first_name();
