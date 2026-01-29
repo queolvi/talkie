@@ -1,13 +1,15 @@
 #ifndef token_hpp
 #define token_hpp
-#include "src\core\cpp\user\adm\admin.hpp"
+#include "C:\Programming\talkie\src\utils\utils.hpp"
 class token{
     private:
-    long long token_;
-    public:
-    long long calculate_token(std::vector<uint8_t> k, int c);
-    token();
-    ~token();
+
+    str calculate_token(vec<str> data, u_sh id) {
+        
+    }
+    str calculate_random_symbols(str st, ll number);
+
+    
 
 };
 #endif
