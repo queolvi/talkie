@@ -1,6 +1,6 @@
 #include "token.hpp"
-long long token::calculate_token(std::vector<uint8_t> k, int c) {
-    long long t = 0;
-    k = admin::get_key();
-    return t;
+int main () {
+    token t{"words.txt"};
+    t.calculate_random_symbols(1, 7);
+    return 0;
 }
