@@ -1,0 +1,6 @@
+int main () {
+    Parser p("words.txt");
+    p.parse();
+    p.printWords();
+    return 0;
+}
